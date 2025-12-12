@@ -23,11 +23,11 @@ This tool demonstrates API integration, caching, region filtering, error handlin
 
 Inside your project folder, create a file named `.env` with:
 
-  API_KEY="API_KEY_VALUE"
-  DATA_FILE="YOUR_CACHE_FILENAME"
+  ***API_KEY="API_KEY_VALUE"***
+  ***DATA_FILE="YOUR_CACHE_FILENAME"***
 ---
 
-## 3 Setup & Run Instructions
+## 3. Setup & Run Instructions
 
 ### 1. Prerequisites
 Ensure you have **Node.js** installed on your machine.
