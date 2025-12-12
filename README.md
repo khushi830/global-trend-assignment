@@ -55,7 +55,7 @@ To see all list state capitals:
 
 ```bash
 
-node node "getCapitalsData.js" 
+node  "getCapitalsData.js" 
 
 ```
 Advanced Usage (With Filters): a filtered list of state capitals (e.g., North India):
@@ -129,5 +129,5 @@ global-trend-assignment/
 │── getSpecificCityData.js  
 │── getCapitalsData.js      
 │── .env                    
-│── package.json            
+│── package.json           
 └── README.md               
