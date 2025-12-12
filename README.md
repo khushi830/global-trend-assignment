@@ -17,7 +17,6 @@ This tool demonstrates API integration, caching, region filtering, error handlin
 
 4. Create a `.env` file inside your project folder and paste your API key.
 
----
 
 ## 2. Environment File Setup (`.env`)
 
@@ -25,7 +24,7 @@ Inside your project folder, create a file named `.env` with:
 
   ***API_KEY="API_KEY_VALUE"***
   ***DATA_FILE="YOUR_CACHE_FILENAME"***
----
+
 
 ## 3. Setup & Run Instructions
 
