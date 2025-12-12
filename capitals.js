@@ -1,0 +1,33 @@
+const INDIAN_CAPITALS = [
+  { name: "Delhi", region: "North", state: "Delhi" },
+  { name: "Jaipur", region: "North", state: "Rajasthan" },
+  { name: "Shimla", region: "North", state: "Himachal Pradesh" },
+  { name: "Srinagar", region: "North", state: "Jammu and Kashmir" },
+  { name: "Lucknow", region: "North", state: "Uttar Pradesh" },
+  { name: "Dehradun", region: "North", state: "Uttarakhand" },
+  { name: "Chandigarh", region: "North", state: "Punjab/Haryana" },
+  { name: "Chennai", region: "South", state: "Tamil Nadu" },
+  { name: "Bangalore", region: "South", state: "Karnataka" },
+  { name: "Hyderabad", region: "South", state: "Telangana" },
+  { name: "Thiruvananthapuram", region: "South", state: "Kerala" },
+  { name: "Amaravati", region: "South", state: "Andhra Pradesh" },
+  { name: "Mumbai", region: "West", state: "Maharashtra" },
+  { name: "Gandhinagar", region: "West", state: "Gujarat" },
+  { name: "Panaji", region: "West", state: "Goa" },
+  { name: "Kolkata", region: "East", state: "West Bengal" },
+  { name: "Patna", region: "East", state: "Bihar" },
+  { name: "Bhubaneswar", region: "East", state: "Odisha" },
+  { name: "Ranchi", region: "East", state: "Jharkhand" },
+  { name: "Bhopal", region: "Central", state: "Madhya Pradesh" },
+  { name: "Raipur", region: "Central", state: "Chhattisgarh" },
+  { name: "Dispur", region: "North East", state: "Assam" },
+  { name: "Itanagar", region: "North East", state: "Arunachal Pradesh" },
+  { name: "Shillong", region: "North East", state: "Meghalaya" },
+  { name: "Agartala", region: "North East", state: "Tripura" },
+  { name: "Imphal", region: "North East", state: "Manipur" },
+  { name: "Kohima", region: "North East", state: "Nagaland" },
+  { name: "Aizawl", region: "North East", state: "Mizoram" },
+  { name: "Gangtok", region: "North East", state: "Sikkim" }
+];
+
+module.exports = INDIAN_CAPITALS;
