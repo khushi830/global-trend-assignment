@@ -63,12 +63,28 @@ Advanced Usage (With Filters): a filtered list of state capitals (e.g., North In
 
 ```bash
 
-node node "getCapitalsData.js" "North"
+node  "getCapitalsData.js" "North"
 
 ```
 
 ### API Endpoints 
-UsedThis tool integrates with the AccuWeather API:Endpoint TypeURL SegmentPurposeSearch/locations/v1/cities/searchFinds the unique City Key for any location.Hourly/forecasts/v1/hourly/12hourFetches detailed 12-hour forecast for the home city.Daily/forecasts/v1/daily/1dayFetches daily summaries for the list of capitals.
+1. Get City Key
+```bash
+https://dataservice.accuweather.com/locations/v1/cities/search?apikey=API_KEY&q=Bhopal
+```
+
+
+2. Get 12-hour weather
+```bash
+
+https://dataservice.accuweather.com/forecasts/v1/hourly/12hour/CITY_KEY?apikey=API_KEY
+```
+
+
+3. Get daily summary (state capitals)
+```bash
+https://dataservice.accuweather.com/forecasts/v1/daily/1day/CITY_KEY?apikey=API_KEY
+```
 
 ### Filters Implemented
 You can filter the list of 29 State Capitals using the second command-line argument:
